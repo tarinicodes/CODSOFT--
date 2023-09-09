@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                        body{
+    background-color: black;
+    text-align: center;
+}
+#nav{
+    height: 80px;
+    align-items: center;
+    display: flex;
+    top:-60px;
+    position: relative;
+}
+#logo{
+    color: white;
+    font-size: 25px;
+    margin-right: 450px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nbar{
+    margin-right: 140px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#nbar:hover{
+    border: 1.5px solid white;
+        }
+    form{
+        background-color: gray;
+        max-width: 500px;
+        margin: 90px auto;
+        padding: 30px 20px;
+    }
+    .from details{
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    .from-details input,.from-details textarea{
+        border: 1px solid #777;
+        border-radius: 2px;
+        padding: 10px;
+        display: block;
+        width: 95%;
+    }
+    button{
+        background-color: chocolate;
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-size: 21px;
+        display: block;
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 120px;
+    }
+    h1{
+        color: white;
+        font-size: 30px;
+        border: 2px solid white;
+        border-radius: 6px;
+        display: inline-block;
+        margin-left: 2px;
+    }
+    p{
+        color: white;
+        margin-top: 150px;
+    }
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <p id="logo">Tarini Sankar Sau</p>
+            <a id="nbar" herf="about.htm">ABOUT</a>
+            <a id="nbar" herf="project.htm">PROJECT</a>
+            <a id="nbar" herf="skill.htm">SKILLS</a>
+            <a id="nbar" herf="contect.htm">CONTACT</a>
+        </div>
+        <div>
+            <h1>CONTECT ME</h1>
+        </div>
+        <form id="from">
+            <div class="from-details">
+                <label for="name" id="lebel-name">Full Name</label>
+                <input type="text" id="name"placeholder="Enter your Full Name"/>
+            </div>
+            <div class="from-details">
+                <label for="email" id="lebel-email">Email</label>
+                <input type="email" id="email"placeholder="Enter your email"/>
+            </div>
+            <div class="from-details">
+                <label for="age" id="lebel-age">Phone Number</label>
+                <input type="text" id="age"placeholder="Enter your Phone No"/>
+            </div>
+            <button type="submit"value="submit">Submit</button>
+        </form>
+        <footer>
+            <P>@ 2023 ALL Right Reserved|Tarini Sankar Sau</P>
+        </footer>
+    </body>
+</html>
